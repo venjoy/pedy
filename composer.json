@@ -1,0 +1,28 @@
+{
+    "name": "venjoy/pedy",
+    "description": "PHP Dependency Injection Container and System",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joy",
+            "email": "joy@venjoy.xzy"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Venjoy\\Pedy\\": "src"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap vendor/autoload.php tests"
+    }
+}
